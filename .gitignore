@@ -1,5 +1,6 @@
 # Diretorios
 node_modules
+public/vendor
 
 # Arquivo de iniciacao debug VSCode.
 launch.json
