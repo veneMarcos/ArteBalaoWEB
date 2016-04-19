@@ -1,0 +1,23 @@
+{
+  "name": "artebalaoweb",
+  "version": "1.0.0",
+  "description": "Site para divulgação da empresa Arte em Balões",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/veneMarcos/ArteBalaoWEB.git"
+  },
+  "author": "veneMarcos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/veneMarcos/ArteBalaoWEB/issues"
+  },
+  "homepage": "https://github.com/veneMarcos/ArteBalaoWEB#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
