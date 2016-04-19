@@ -1,0 +1,5 @@
+# Diretorios
+node_modules
+
+# Arquivo de iniciacao debug VSCode.
+launch.json
