@@ -1,6 +1,4 @@
 // public/js/main.js
 
-angular.module('artebalaoweb', ['ngRoute'])
-    .config(function ($routeProvider) {
-            
-});
+angular.module('artebalaoweb', ['ngRoute', 'ngMaterial'])
+    .config(function ($routeProvider) {});

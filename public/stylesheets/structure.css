@@ -1,0 +1,12 @@
+.fixed-header{
+    min-height: 200px;
+        
+}
+
+.header-logo{
+    background: url(../img/baloesceu.jpg) 100% no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 1000px;
+    margin: auto auto 10px;
+}
