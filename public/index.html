@@ -1,6 +1,6 @@
 <!-- public/index.html -->
 <!doctype html>
-<html>
+<html ng-app="artebalaoweb">
 
 <head>
     <meta charset="UTF-8">
@@ -11,16 +11,37 @@
 </head>
 
 <body>
-    <div class="fixed-header">
+    <div>
         <header>
-            <div class="header-logo"></div>
+            <div class="header-logo">
+                <div class="header-content">
+                    <span>Arte em Balões</span>
+                    
+                </div>
+                <div class="header-menu">
+                        <nav>
+                            <a href="#">Trabalhos</a>
+                            <a href="#">Contato</a>
+                        </nav>
+                    </div>
+            </div>
         </header>
-    </div>   
+    </div>
 
-    <h1>Arte em Balões</h1>
+    <div ng-view></div>
 
+    <!--Scripts Vendor-->
     <script src="vendor/angular/angular.js"></script>
     <script src="vendor/angular-material/angular-material.js"></script>
+    <script src="vendor/angular-route/angular-route.js"></script>
+    <script src="vendor/angular-animate/angular-animate.js"></script>
+    <script src="vendor/angular-aria/angular-aria.js"></script>
+
+    <!--Scripts Config-->
+    <script src="js/main.js"></script>
+
+    <!--Controllers-->
+    <script src="js/controllers/PortfolioController.js"></script>
 </body>
 
 </html>
